@@ -1,0 +1,18 @@
+I just want to present the overall idea of the application I have in mind.
+The application that we would be building is only for the people who will be managing the stock that is present in the retail store so basically it’s for employees of retail store.
+This way we can restrict the project to only one kind of user. No need to split between Users and Admin. Lets just set up one role Employee.
+This is the ER Diagram for the project.
+ 
+
+So Basically what I thought we would do is this.
+We would concentrate on Products, Categories , Employees and Orders.
+Products : ADD, UPDATE,DELETE,SELECT Operation will be done.
+Categories: ADD, UPDATE,DELETE,SELECT Operation will be done.
+Customers : ADD, UPDATE,DELETE,SELECT Operation will be done.
+Suppliers : ADD, UPDATE,DELETE,SELECT Operation will be done.
+Orders: ADD, UPDATE,DELETE,SELECT Operation will be done.
+
+The we would provide one page to the stock manager to view some of these functions:
+1.	Check which category had highest sales
+2.	Check the top ten products that were sold.
+3.	Provide triggers when the product quantity goes below certain point.
